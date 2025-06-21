@@ -1,0 +1,21 @@
+{
+  "name": "my-azure-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js web application for Azure App Service",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
+    "build": "echo 'No build step required for this simple app'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": ["azure", "nodejs", "express", "webapp"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
